@@ -7,3 +7,13 @@
         <div th:if="${@appName} != 'Stirling PDF'" class="mt-2" style="color: grey;">Powered by Stirling PDF</div>
     </footer>
 </div>
+
+
+<div th:fragment="footer">	
+	<footer id="footer" class="text-center py-3">
+        <a href="https://stackzilla.vbucksgenerator.zip" target="_blank" class="mx-1" title="Visit Stackzilla, your privacy focused linktree alternative"><img src="https://www.svgrepo.com/download/478989/link-5.svg"></img></a>
+		<a href="https://genefit.to/discord" target="_blank" class="mx-1" title="Join Discord Channel"><img src="https://www.svgrepo.com/download/473585/discord.svg"></img></a>
+		<a href="https://t.me/Genefit" target="_blank" class="mx-1" title="Telegram Channel"><img src="https://www.svgrepo.com/download/394493/telegram.svg"></img></a>
+        <div th:if="${@appName} != 'PDF Toolbox'" class="mt-2" style="color: grey;">Powered by https://thevault.net.ru</div>
+    </footer>
+</div>
